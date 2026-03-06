@@ -18,7 +18,7 @@ export default function ZimsecOLevelExamPrep() {
       logo: { "@type": "ImageObject", url: `${siteUrl}/scales.png` },
     },
     description:
-      "A practical guide for Zimbabwe students on using AI tools like Chikoro AI to prepare for ZIMSEC O-Level exams — covering study plans, subject tips, and past-paper practice.",
+      "A practical guide for Zimbabwe students on using AI tools like Chikoro AI to prepare for ZIMSEC O-Level exams — covering study plans, subject tips and past-paper practice.",
     url: `${siteUrl}/featured/${slug}`,
     articleSection: "Education",
     keywords: [
@@ -34,7 +34,7 @@ export default function ZimsecOLevelExamPrep() {
         <title>How to Prepare for ZIMSEC O-Level Exams with AI | Chikoro AI</title>
         <meta
           name="description"
-          content="A practical guide for Zimbabwe students on using AI to ace ZIMSEC O-Level exams — study plans, subject tips, past-paper practice, and more with Chikoro AI."
+          content="A practical guide for Zimbabwe students on using AI to ace ZIMSEC O-Level exams — study plans, subject tips, past-paper practice and more with Chikoro AI."
         />
         <meta
           name="keywords"
@@ -70,7 +70,7 @@ export default function ZimsecOLevelExamPrep() {
             ZIMSEC O-Level exams are one of the most important milestones in a Zimbabwean student's
             life. The pressure is real — but so is the opportunity. With AI tools like{' '}
             <strong>Chikoro AI</strong>, students across Zimbabwe now have access to a personalised
-            study companion that can break down difficult topics, generate practice questions, and
+            study companion that can break down difficult topics, generate practice questions and
             explain concepts in plain language — any time of day.
           </p>
           <p className="article-lead">
@@ -83,7 +83,7 @@ export default function ZimsecOLevelExamPrep() {
 
           <h2>Why AI Works for ZIMSEC Prep</h2>
           <p>
-            Traditional exam preparation relies on textbooks, past papers, and the hope that your
+            Traditional exam preparation relies on textbooks, past papers and the hope that your
             teacher has time to answer your questions. AI changes that equation entirely. With
             Chikoro AI, you can:
           </p>
@@ -103,7 +103,7 @@ export default function ZimsecOLevelExamPrep() {
           </p>
           <p>
             <em>
-              "I am writing ZIMSEC O-Level Mathematics, English, Combined Science, and History.
+              "I am writing ZIMSEC O-Level Mathematics, English, Combined Science and History.
               My exams start in 8 weeks. Can you build me a daily study plan?"
             </em>
           </p>
@@ -127,7 +127,7 @@ export default function ZimsecOLevelExamPrep() {
 
           <h3>Combined Science</h3>
           <p>
-            Use AI to generate definition flashcards, explain diagrams in words, and summarise each
+            Use AI to generate definition flashcards, explain diagrams in words and summarise each
             chapter of your syllabus. Ask:{' '}
             <em>"What are the most commonly tested topics in ZIMSEC Combined Science Paper 2?"</em>
           </p>
@@ -135,13 +135,13 @@ export default function ZimsecOLevelExamPrep() {
           <h3>English Language</h3>
           <p>
             Write a practice composition or letter, then paste it into Chikoro AI and ask for
-            feedback on structure, vocabulary, and grammar. This replaces the need for a private
+            feedback on structure, vocabulary and grammar. This replaces the need for a private
             tutor to review your writing.
           </p>
 
           <h3>History and Geography</h3>
           <p>
-            Ask AI to create timeline summaries, compare events, and generate essay plans for common
+            Ask AI to create timeline summaries, compare events and generate essay plans for common
             question types. Try:{' '}
             <em>
               "Give me an essay plan for the question: How did colonialism affect Zimbabwe's
@@ -166,7 +166,7 @@ export default function ZimsecOLevelExamPrep() {
           <h2>Step 4 — Review the Week Before Exams</h2>
           <p>
             In the final week, use Chikoro AI to generate quick-fire revision quizzes on every topic.
-            Ask for key definitions, formula sheets, and summary notes for each subject. The goal at
+            Ask for key definitions, formula sheets and summary notes for each subject. The goal at
             this stage is consolidation, not new learning.
           </p>
 

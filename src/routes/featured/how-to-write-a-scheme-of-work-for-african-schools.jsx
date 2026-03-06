@@ -13,7 +13,7 @@ export default function SchemeOfWork() {
     dateModified: "2026-03-05",
     author: { "@type": "Organization", name: "Scales AI", url: siteUrl },
     publisher: { "@type": "Organization", name: "Scales AI", logo: { "@type": "ImageObject", url: `${siteUrl}/scales.png` } },
-    description: "A step-by-step guide to writing an effective scheme of work for African secondary school teachers — covering structure, objectives, and how AI tools can save you hours.",
+    description: "A step-by-step guide to writing an effective scheme of work for African secondary school teachers — covering structure, objectives and how AI tools can save you hours.",
     url: `${siteUrl}/featured/${slug}`,
     articleSection: "Teachers",
     keywords: ["scheme of work", "lesson planning Africa", "teacher resources Zimbabwe", "AI lesson planning", "ZIMSEC scheme of work", "secondary school planning"],
@@ -23,7 +23,7 @@ export default function SchemeOfWork() {
     <section className="article-page">
       <Helmet>
         <title>How to Write a Scheme of Work for African Schools | Scales AI</title>
-        <meta name="description" content="A practical guide to writing a scheme of work for secondary school teachers in Africa — structure, tips, and how AI tools can save you hours each term." />
+        <meta name="description" content="A practical guide to writing a scheme of work for secondary school teachers in Africa — structure, tips and how AI tools can save you hours each term." />
         <meta name="keywords" content="scheme of work, lesson planning Africa, teacher resources Zimbabwe, AI lesson planning, ZIMSEC scheme of work" />
         <meta property="og:title" content="How to Write a Scheme of Work for African Schools" />
         <meta property="og:description" content="Step-by-step guide for African teachers on writing an effective scheme of work — with tips on using AI to speed up the process." />
@@ -44,12 +44,12 @@ export default function SchemeOfWork() {
           <p className="article-lead">
             A scheme of work is one of the most important documents a teacher produces — yet it is
             also one of the most time-consuming. For teachers in Zimbabwe and across Africa managing
-            large classes, multiple subjects, and a full marking load, finding hours to write a
+            large classes, multiple subjects and a full marking load, finding hours to write a
             thorough scheme of work every term can feel impossible.
           </p>
           <p className="article-lead">
             This guide walks through what a good scheme of work looks like, how to structure one
-            aligned to the ZIMSEC curriculum, and how modern tools — including AI — are changing
+            aligned to the ZIMSEC curriculum and how modern tools — including AI — are changing
             how teachers approach the process.
           </p>
         </header>
@@ -65,7 +65,7 @@ export default function SchemeOfWork() {
           <p>
             A well-written scheme of work includes the topic or unit for each week, the learning
             objectives students should achieve, the resources and activities to be used, assessment
-            points, and notes on differentiation for different ability groups.
+            points and notes on differentiation for different ability groups.
           </p>
 
           <h2>The Structure of an Effective Scheme of Work</h2>
@@ -77,7 +77,7 @@ export default function SchemeOfWork() {
           <h3>Week / Duration</h3>
           <p>
             Specify the week number and how many lessons are scheduled for that week. Be realistic
-            about the number of periods available after accounting for assemblies, sports days, and
+            about the number of periods available after accounting for assemblies, sports days and
             public holidays.
           </p>
 
@@ -103,7 +103,7 @@ export default function SchemeOfWork() {
 
           <h3>Resources</h3>
           <p>
-            Reference the textbooks, past papers, worksheets, and any digital tools being used.
+            Reference the textbooks, past papers, worksheets and any digital tools being used.
             Being specific here saves time at the planning stage later in the term.
           </p>
 
@@ -117,7 +117,7 @@ export default function SchemeOfWork() {
           <p>
             The most frequent errors teachers make when writing schemes of work are: packing too
             many topics into the first half of term, writing objectives that are too vague to be
-            measurable, and not leaving buffer weeks for revision and catch-up. A scheme of work
+            measurable and not leaving buffer weeks for revision and catch-up. A scheme of work
             should breathe — it is a guide, not a rigid script.
           </p>
 
@@ -148,7 +148,7 @@ export default function SchemeOfWork() {
           <p>
             Whether you are writing your scheme of work from scratch or updating an existing one,
             the key is to start with the big picture — map out your topics for the term before
-            filling in the detail. Use your ZIMSEC syllabus as the anchor, and build around it.
+            filling in the detail. Use your ZIMSEC syllabus as the anchor and build around it.
           </p>
           <p>
             If you want to explore how AI can support your planning, Chikoro AI is free to try and

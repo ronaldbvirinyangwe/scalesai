@@ -13,7 +13,7 @@ export default function AfricanLanguagesAI() {
     dateModified: "2026-03-05",
     author: { "@type": "Organization", name: "Scales AI", url: siteUrl },
     publisher: { "@type": "Organization", name: "Scales AI", logo: { "@type": "ImageObject", url: `${siteUrl}/scales.png` } },
-    description: "A look at the state of African language AI in 2026 — which languages are supported, what the gaps are, and what platforms like Chikoro AI are doing for Shona, Ndebele, Zulu, and Swahili.",
+    description: "A look at the state of African language AI in 2026 — which languages are supported, what the gaps are and what platforms like Chikoro AI are doing for Shona, Ndebele, Zulu and Swahili.",
     url: `${siteUrl}/featured/${slug}`,
     articleSection: "Future of Technology",
     keywords: ["AI African languages", "Shona AI", "Ndebele AI", "Zulu AI", "Swahili AI", "multilingual AI Africa", "African language technology 2026", "mother tongue AI"],
@@ -23,7 +23,7 @@ export default function AfricanLanguagesAI() {
     <section className="article-page">
       <Helmet>
         <title>Which African Languages Can AI Understand in 2026? | Scales AI</title>
-        <meta name="description" content="A look at where African language AI stands in 2026 — which languages are supported, what the gaps are, and what Shona, Ndebele, Zulu, and Swahili support looks like today." />
+        <meta name="description" content="A look at where African language AI stands in 2026 — which languages are supported, what the gaps are and what Shona, Ndebele, Zulu and Swahili support looks like today." />
         <meta name="keywords" content="AI African languages, Shona AI, Ndebele AI, Zulu AI, Swahili AI, multilingual AI Africa, African language technology 2026" />
         <meta property="og:title" content="Which African Languages Can AI Understand in 2026?" />
         <meta property="og:description" content="Where does African language AI stand in 2026? A breakdown of Shona, Ndebele, Zulu, Swahili and the gaps that remain." />
@@ -50,7 +50,7 @@ export default function AfricanLanguagesAI() {
           </p>
           <p className="article-lead">
             The situation is improving. 2026 is a different landscape from even two years ago. But
-            progress is uneven, and the differences between what AI can do in English versus what
+            progress is uneven and the differences between what AI can do in English versus what
             it can do in Shona or Ndebele remain significant. Here is an honest look at where
             things stand.
           </p>
@@ -67,23 +67,23 @@ export default function AfricanLanguagesAI() {
           </p>
           <p>
             This is not a technical limitation — it is a data limitation. AI models learn from text.
-            If the text of a language is not collected, curated, and included in training, the model
+            If the text of a language is not collected, curated and included in training, the model
             cannot learn it. And for many African languages, that text is hard to find: fewer books
-            are digitised, fewer newspapers are online, and the oral traditions that carry much of
+            are digitised, fewer newspapers are online and the oral traditions that carry much of
             the culture's knowledge are not text at all.
           </p>
 
           <h2>Swahili — The Most Supported African Language in AI</h2>
           <p>
             Swahili has the strongest AI support of any sub-Saharan African language. With over 200
-            million speakers across East Africa — Kenya, Tanzania, Uganda, the DRC, and beyond —
+            million speakers across East Africa — Kenya, Tanzania, Uganda, the DRC and beyond —
             and a significant written tradition, Swahili has attracted more attention from major AI
             labs.
           </p>
           <p>
             GPT-4 and Google's Gemini both handle Swahili reasonably well for basic tasks:
             translation, summarisation, simple question-answering. The quality drops significantly
-            for complex reasoning or technical topics, and errors in grammar and idiom remain
+            for complex reasoning or technical topics and errors in grammar and idiom remain
             common. But Swahili is the closest any African language has come to functional AI
             support from the major global platforms.
           </p>
@@ -99,7 +99,7 @@ export default function AfricanLanguagesAI() {
             Global AI platforms still handle Shona poorly — results are inconsistent and the models
             frequently default to English when a Shona query is complex. The more reliable Shona AI
             support is coming from platforms built specifically for the Zimbabwean context, where
-            the training data, the curriculum knowledge, and the language models are all designed
+            the training data, the curriculum knowledge and the language models are all designed
             together.
           </p>
 
@@ -132,14 +132,14 @@ export default function AfricanLanguagesAI() {
           <p>
             Chikoro AI was built on the premise that genuinely useful AI for African students cannot
             be an English-first system with a translation layer bolted on. The platform currently
-            supports <strong>Shona, Ndebele, Zulu, and Swahili</strong> — with support that goes
+            supports <strong>Shona, Ndebele, Zulu and Swahili</strong> — with support that goes
             beyond surface-level translation into curriculum-aligned, contextually appropriate
             educational content.
           </p>
           <p>
             A student using Chikoro AI can ask a question in Shona and receive an explanation in
             Shona — not a translated-from-English explanation, but one generated with awareness of
-            Zimbabwean educational contexts, local examples, and the ZIMSEC curriculum. Teachers
+            Zimbabwean educational contexts, local examples and the ZIMSEC curriculum. Teachers
             can assign work and communicate in their preferred language. Parents receive progress
             updates in the language they are most comfortable reading in.
           </p>
@@ -153,7 +153,7 @@ export default function AfricanLanguagesAI() {
           <p>
             Even with this progress, the gap between what AI can do for English speakers and what
             it can do for Shona, Ndebele, Zulu, or Swahili speakers is still large. Complex
-            reasoning, creative writing, and nuanced feedback all remain significantly better in
+            reasoning, creative writing and nuanced feedback all remain significantly better in
             English across the industry.
           </p>
           <p>

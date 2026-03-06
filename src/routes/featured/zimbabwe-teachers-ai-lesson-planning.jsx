@@ -18,7 +18,7 @@ export default function ZimbabweTeachersAiLessonPlanning() {
       logo: { "@type": "ImageObject", url: `${siteUrl}/scales.png` },
     },
     description:
-      "Zimbabwean teachers are using AI tools to write lesson plans, generate worksheets, differentiate instruction, and save hours each week. Here is how they are doing it.",
+      "Zimbabwean teachers are using AI tools to write lesson plans, generate worksheets, differentiate instruction and save hours each week. Here is how they are doing it.",
     url: `${siteUrl}/featured/${slug}`,
     articleSection: "Education",
     keywords: [
@@ -34,7 +34,7 @@ export default function ZimbabweTeachersAiLessonPlanning() {
         <title>How Zimbabwean Teachers Are Using AI to Plan Lessons | Chikoro AI</title>
         <meta
           name="description"
-          content="Zimbabwean teachers are saving hours each week using AI to write lesson plans, generate worksheets, and differentiate instruction. Here's how they're doing it with Chikoro AI."
+          content="Zimbabwean teachers are saving hours each week using AI to write lesson plans, generate worksheets and differentiate instruction. Here's how they're doing it with Chikoro AI."
         />
         <meta
           name="keywords"
@@ -67,7 +67,7 @@ export default function ZimbabweTeachersAiLessonPlanning() {
           <h1>How Zimbabwean Teachers Are Using AI to Plan Lessons</h1>
           <p className="article-meta">March 5, 2026 · 9 min read</p>
           <p className="article-lead">
-            Teaching in Zimbabwe is demanding. Classes are large, resources are stretched, and the
+            Teaching in Zimbabwe is demanding. Classes are large, resources are stretched and the
             administrative burden on teachers — lesson plans, assessments, worksheets, reports —
             can consume as many hours as the teaching itself.
           </p>
@@ -75,7 +75,7 @@ export default function ZimbabweTeachersAiLessonPlanning() {
             A growing number of Zimbabwean educators are turning to AI tools to reclaim that time
             and put it back into the classroom. This is not about replacing teachers. It is about
             giving them a capable assistant that handles the repetitive drafting work so they can
-            focus on what only a human teacher can do: build relationships, read the room, and
+            focus on what only a human teacher can do: build relationships, read the room and
             inspire students.
           </p>
         </header>
@@ -105,7 +105,7 @@ export default function ZimbabweTeachersAiLessonPlanning() {
             <em>
               "Write a 40-minute lesson plan for Form 2 Combined Science on the topic of particle
               theory. Include learning objectives, an introduction activity, a main teaching
-              activity, and a class exercise. Align to the ZIMSEC syllabus."
+              activity and a class exercise. Align to the ZIMSEC syllabus."
             </em>
           </p>
           <p>
@@ -117,7 +117,7 @@ export default function ZimbabweTeachersAiLessonPlanning() {
           <p>
             Photocopied worksheets from five years ago do not reflect current exam formats. Teachers
             are now prompting AI to generate fresh exercises — including multiple choice, structured
-            questions, and essay prompts — tailored to their class level and current topic.
+            questions and essay prompts — tailored to their class level and current topic.
           </p>
           <p>
             A Maths teacher in Harare reported generating 20 differentiated practice questions for
@@ -128,7 +128,7 @@ export default function ZimbabweTeachersAiLessonPlanning() {
           <p>
             Every class has students at different levels. AI makes it easier to create multiple
             versions of the same lesson — a simplified version for students who are behind, a
-            standard version, and an extension version for students who finish early. Teachers
+            standard version and an extension version for students who finish early. Teachers
             describe this as one of the biggest time savers of all.
           </p>
 
@@ -155,7 +155,7 @@ export default function ZimbabweTeachersAiLessonPlanning() {
           <ul>
             <li>
               <strong>Be specific in your prompts.</strong> Include the year group, subject, topic,
-              duration of lesson, and the type of output you want. Vague prompts give vague results.
+              duration of lesson and the type of output you want. Vague prompts give vague results.
             </li>
             <li>
               <strong>Always review and edit.</strong> AI is a starting point, not a final product.
@@ -176,13 +176,13 @@ export default function ZimbabweTeachersAiLessonPlanning() {
           <h2>What Chikoro AI Offers for Teachers</h2>
           <p>
             Chikoro AI is primarily known as a student-facing tutoring platform, but its underlying
-            capabilities — ZIMSEC curriculum knowledge, Shona and English support, and contextual
+            capabilities — ZIMSEC curriculum knowledge, Shona and English support and contextual
             African examples — make it equally useful for educators.
           </p>
           <p>
             Teachers using Chikoro AI can generate curriculum-aligned content without needing to
             specify the ZIMSEC context each time: the model already understands the Zimbabwean
-            education system, the subject structures, and the exam formats students are working
+            education system, the subject structures and the exam formats students are working
             towards.
           </p>
           <p>
@@ -200,7 +200,7 @@ export default function ZimbabweTeachersAiLessonPlanning() {
           </p>
           <p>
             The classroom is still the most important place in a child's education. AI just makes
-            sure the teacher who walks in is prepared, resourced, and not exhausted from a night
+            sure the teacher who walks in is prepared, resourced and not exhausted from a night
             of paperwork.
           </p>
 

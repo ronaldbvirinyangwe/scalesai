@@ -13,7 +13,7 @@ export default function HomeworkStudentsComplete() {
     dateModified: "2026-03-06",
     author: { "@type": "Organization", name: "Scales AI", url: siteUrl },
     publisher: { "@type": "Organization", name: "Scales AI", logo: { "@type": "ImageObject", url: `${siteUrl}/scales.png` } },
-    description: "A practical guide for teachers on designing homework that students genuinely engage with — covering purpose, format, feedback, and how AI tools are transforming homework completion rates in African schools.",
+    description: "A practical guide for teachers on designing homework that students genuinely engage with — covering purpose, format, feedback and how AI tools are transforming homework completion rates in African schools.",
     url: `${siteUrl}/featured/${slug}`,
     articleSection: "Teachers",
     keywords: ["homework students complete", "how to set homework", "improve homework submission", "student homework tips", "AI homework tool", "Zimbabwe teacher resources", "ZIMSEC homework"],
@@ -32,7 +32,7 @@ export default function HomeworkStudentsComplete() {
         <meta property="og:image" content={`${siteUrl}/assets/featured-banner.png`} />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="How to Set Homework That Students Actually Complete" />
-        <meta name="twitter:description" content="Designing assignments students actually engage with — and using AI to track, mark, and follow up automatically." />
+        <meta name="twitter:description" content="Designing assignments students actually engage with — and using AI to track, mark and follow up automatically." />
         <link rel="canonical" href={`${siteUrl}/featured/${slug}`} />
         <script type="application/ld+json">{JSON.stringify(schema)}</script>
       </Helmet>
@@ -85,7 +85,7 @@ export default function HomeworkStudentsComplete() {
           <h3>There Was No Reminder</h3>
           <p>
             Students — particularly younger ones — often forget homework that wasn't reinforced after
-            it was set. If the only reminder was verbal at the end of a lesson on Tuesday, and submission
+            it was set. If the only reminder was verbal at the end of a lesson on Tuesday and submission
             is Friday, the homework may simply not resurface in their mind.
           </p>
 
@@ -116,7 +116,7 @@ export default function HomeworkStudentsComplete() {
           <h3>2. Make the Connection to Learning Visible</h3>
           <p>
             When you set homework, briefly explain why it matters: "This builds directly on what we
-            covered today about fractions, and these types of questions come up every year in ZIMSEC."
+            covered today about fractions and these types of questions come up every year in ZIMSEC."
             That single sentence shifts the task from arbitrary to purposeful.
           </p>
 
@@ -149,7 +149,7 @@ export default function HomeworkStudentsComplete() {
           <h2>The Role of Reminders in Completion Rates</h2>
           <p>
             One often overlooked factor is simply memory. Secondary school students are managing
-            multiple subjects, social commitments, and in many cases, significant home responsibilities.
+            multiple subjects, social commitments and in many cases, significant home responsibilities.
             A homework task assigned verbally at the end of class competes with everything else for
             their attention.
           </p>
@@ -168,7 +168,7 @@ export default function HomeworkStudentsComplete() {
           <p>
             AI-powered education platforms are beginning to address all three simultaneously.
             <a href="https://chikoro-ai.com" target="_blank" rel="noopener noreferrer"> Chikoro AI</a>,
-            built for the ZIMSEC curriculum and supporting Shona, Ndebele, Zulu, and Swahili, offers
+            built for the ZIMSEC curriculum and supporting Shona, Ndebele, Zulu and Swahili, offers
             a workflow specifically designed around this problem.
           </p>
 
@@ -181,7 +181,7 @@ export default function HomeworkStudentsComplete() {
           <p>
             Students submit their answers through the app. The AI marks every submission immediately —
             not just recording a score, but providing detailed feedback on each question: why a correct
-            answer is correct, and specifically why a wrong answer is wrong, with explanation of the
+            answer is correct and specifically why a wrong answer is wrong, with explanation of the
             underlying concept. Students receive this feedback in real time, closing the learning loop
             within minutes of submitting.
           </p>
@@ -224,13 +224,13 @@ export default function HomeworkStudentsComplete() {
 
           <h2>Final Thought</h2>
           <p>
-            Homework works when it's purposeful, well-pitched, and followed up consistently. The students
+            Homework works when it's purposeful, well-pitched and followed up consistently. The students
             who skip it are often telling you something useful — that the task felt impossible, pointless,
             or simply slipped their minds. Treating that signal as feedback, rather than defiance, tends
             to produce better results for everyone.
           </p>
           <p>
-            And with AI tools now making automatic marking, instant feedback, and submission tracking
+            And with AI tools now making automatic marking, instant feedback and submission tracking
             available even in under-resourced school contexts, the practical barriers to better homework
             design are shrinking fast.
           </p>

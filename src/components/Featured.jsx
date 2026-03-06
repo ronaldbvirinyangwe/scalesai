@@ -7,6 +7,24 @@ const siteUrl = 'https://scalesai.online'
 // All posts — newest first
 const posts = [
   {
+    title: "50+ AI Startups in Africa: The Ultimate 2026 Sectoral Review",
+    category: "News",
+    date: "Mar 6, 2026",
+    excerpt: "Mapping the AI Frontier: A Sectoral Review of 50+ African Startups",
+  },
+  {
+    title: "How AI is Powering Africa’s New Industrial Revolution",
+    category: "News",
+    date: "Mar 6, 2026",
+    excerpt: "A deep dive into the 50 most innovative AI startups across the continent, transforming education, agriculture, healthcare and finance in 2026.",
+  },
+  {
+    title: "AI Startups Africa 2026",
+    category: "News",
+    date: "Mar 6, 2026",
+    excerpt: "The Silicon Savannah Rising: 50 AI Companies Shaping Africa's Future — from education to agriculture, healthcare to finance. A comprehensive list of the startups transforming the continent with AI in 2026.",
+  },
+  {
     title: "How to Set Homework That Students Actually Complete",
     category: "Teachers",
     date: "Mar 6, 2026",

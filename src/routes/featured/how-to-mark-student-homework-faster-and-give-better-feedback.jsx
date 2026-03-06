@@ -44,12 +44,12 @@ export default function MarkHomeworkFaster() {
           <p className="article-lead">
             Marking is one of the heaviest parts of a teacher's workload — and in many African
             classrooms with 40 or 50 students, it can consume entire evenings and weekends. Yet the
-            research is clear: feedback is only useful when it is specific, timely, and understood
+            research is clear: feedback is only useful when it is specific, timely and understood
             by the student. Marks alone — a number at the bottom of the page — change very little.
           </p>
           <p className="article-lead">
             This guide shares practical strategies for reducing marking time without reducing
-            feedback quality, and looks at how new tools — including AI — are changing what is
+            feedback quality and looks at how new tools — including AI — are changing what is
             possible for teachers in Zimbabwe and across Africa.
           </p>
         </header>
@@ -64,7 +64,7 @@ export default function MarkHomeworkFaster() {
           </p>
           <p>
             Effective feedback tells students what they did correctly and why, what was incorrect
-            and why, and what they should do differently next time. A mark of 6 out of 10 without
+            and why and what they should do differently next time. A mark of 6 out of 10 without
             explanation gives a student no information about how to improve. A note that says
             "Your working is correct but you did not show all steps — the examiner needs to see
             your method" gives the student something they can act on.
@@ -84,7 +84,7 @@ export default function MarkHomeworkFaster() {
           <p>
             Rather than correcting every mistake in a piece of work, identify the two or three
             errors that appear most frequently across the class and address those in a whole-class
-            feedback session. This is faster, and it reaches every student rather than just the one
+            feedback session. This is faster and it reaches every student rather than just the one
             whose book you happened to write in.
           </p>
 
@@ -99,7 +99,7 @@ export default function MarkHomeworkFaster() {
           <p>
             Rather than marking one student's full paper before moving to the next, mark question
             one for all students, then question two for all students. This builds speed because you
-            are holding the same answer in your head, and it makes it easier to spot where the whole
+            are holding the same answer in your head and it makes it easier to spot where the whole
             class struggled.
           </p>
 
@@ -109,7 +109,7 @@ export default function MarkHomeworkFaster() {
             can mark student homework automatically — and explain the reasoning behind each mark.
             This is different from the multiple-choice auto-grading that has existed for years.
             Modern AI can assess short-answer and structured questions, identify where a student's
-            reasoning went wrong, and generate a personalised explanation for each student.
+            reasoning went wrong and generate a personalised explanation for each student.
           </p>
           <p>
             <strong>Chikoro AI</strong> uses this approach for teachers across Zimbabwe. When a
@@ -121,12 +121,12 @@ export default function MarkHomeworkFaster() {
           <p>
             For the teacher, this removes the marking burden entirely for routine exercises and
             homework, freeing up time for the kind of feedback that genuinely requires human
-            judgement — essays, extended writing, and complex problems where a student's approach
+            judgement — essays, extended writing and complex problems where a student's approach
             matters as much as the answer.
           </p>
           <p>
             Teachers can also see a class-wide dashboard showing how each student performed, which
-            questions caused the most difficulty, and which students are consistently struggling —
+            questions caused the most difficulty and which students are consistently struggling —
             without needing to mark a single book.
           </p>
 
@@ -134,13 +134,13 @@ export default function MarkHomeworkFaster() {
           <p>
             The goal is not to eliminate teacher feedback — it is to reserve your time and attention
             for the feedback that requires your expertise and your knowledge of the individual
-            student. Routine exercises, comprehension checks, and structured practice questions can
+            student. Routine exercises, comprehension checks and structured practice questions can
             be handled efficiently; complex written work and project assessments benefit most from a
             teacher's direct engagement.
           </p>
           <p>
             Whether you use AI tools, peer marking, or a smarter marking code, the principle is the
-            same: feedback works when students receive it quickly, understand it clearly, and can
+            same: feedback works when students receive it quickly, understand it clearly and can
             act on it before the concept becomes embedded incorrectly.
           </p>
 

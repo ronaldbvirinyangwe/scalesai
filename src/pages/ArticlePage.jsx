@@ -3,13 +3,6 @@ import React from 'react'
 import { useParams, Link } from 'react-router-dom'
 import Seo from '../components/Seo' // ✅ added SEO import
 
-// Import article components manually
-import Genesis21Released from '../routes/featured/genesis-21-released.jsx'
-import SafetyReport from '../routes/featured/chikoro-safety-report.jsx'
-import AfricaFirstAgents from '../routes/featured/building-africa-first-agents.jsx'
-import ExodusArticle from '../routes/featured/exodus-lightweight-fast-local.jsx'
-import EduTechAfrica from '../routes/featured/chikoro-at-edutech-africa-2025.jsx'
-import FineTuningLanguages from '../routes/featured/fine-tuning-shona-and-swahili-models.jsx'
 import ZimsecOLevelExamPrep from '../routes/featured/zimsec-olevel-exam-prep-with-ai.jsx'
 import AiHomeworkHelpInShona from '../routes/featured/ai-homework-help-in-shona.jsx'
 import ZimbabweTeachersAiLessonPlanning from '../routes/featured/zimbabwe-teachers-ai-lesson-planning.jsx'
@@ -19,15 +12,12 @@ import ParentsTrackProgress from '../routes/featured/how-parents-can-track-their
 import AfricanLanguagesAI from '../routes/featured/which-african-languages-can-ai-understand-in-2026.jsx'
 import IdentifyStudentsFallingBehind from '../routes/featured/how-to-identify-students-who-are-falling-behind.jsx'
 import HomeworkStudentsComplete from '../routes/featured/how-to-set-homework-that-students-actually-complete.jsx'
+import AfricaAiStartups from '../routes/featured/ai-startups-africa-2026.jsx'
+import HowAIIsPoweringAfrica from '../routes/featured/how-ai-is-powering-africas-new-industrial-revolution.jsx'
+import AiStartupAnalysis from '../routes/featured/50-ai-startups-in-africa-the-ultimate-2026-sectoral-review.jsx'
 
 // Map slug → component
 const articleComponents = {
-  'genesis-21-released': Genesis21Released,
-  'chikoro-safety-report': SafetyReport,
-  'building-africa-first-agents': AfricaFirstAgents,
-  'exodus-lightweight-fast-local': ExodusArticle,
-  'chikoro-at-edutech-africa-2025': EduTechAfrica,
-  'fine-tuning-shona-and-swahili-models': FineTuningLanguages,
   'how-to-prepare-for-zimsec-o-level-exams-with-ai': ZimsecOLevelExamPrep,
   'ai-homework-help-in-shona-chikoro-ai-explained': AiHomeworkHelpInShona,
   'how-zimbabwean-teachers-are-using-ai-to-plan-lessons': ZimbabweTeachersAiLessonPlanning,
@@ -37,6 +27,9 @@ const articleComponents = {
   'which-african-languages-can-ai-understand-in-2026': AfricanLanguagesAI,
   'how-to-identify-students-who-are-falling-behind': IdentifyStudentsFallingBehind,
   'how-to-set-homework-that-students-actually-complete': HomeworkStudentsComplete,
+  'ai-startups-africa-2026': AfricaAiStartups,
+  'how-ai-is-powering-africas-new-industrial-revolution': HowAIIsPoweringAfrica,
+  '50-ai-startups-in-africa-the-ultimate-2026-sectoral-review': AiStartupAnalysis,
 }
 
 export default function ArticlePage() {

@@ -94,7 +94,7 @@ export default function IdentifyStudentsFallingBehind() {
           <p>
             A single poor score means little. A downward trend across three or more assessments on the
             same subject is a meaningful signal. Look for this particularly in subjects that build on
-            prior knowledge — mathematics, science, and languages.
+            prior knowledge — mathematics, science and languages.
           </p>
 
           <h3>3. Consistently Wrong on the Same Type of Question</h3>

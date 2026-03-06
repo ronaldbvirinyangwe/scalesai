@@ -18,7 +18,7 @@ export default function AiHomeworkHelpInShona() {
       logo: { "@type": "ImageObject", url: `${siteUrl}/scales.png` },
     },
     description:
-      "Chikoro AI is the first AI tutor that offers homework help in Shona. Learn how it works, why mother-tongue learning matters, and how students across Zimbabwe are using it.",
+      "Chikoro AI is the first AI tutor that offers homework help in Shona. Learn how it works, why mother-tongue learning matters and how students across Zimbabwe are using it.",
     url: `${siteUrl}/featured/${slug}`,
     articleSection: "Chikoro AI",
     keywords: [
@@ -67,13 +67,13 @@ export default function AiHomeworkHelpInShona() {
           <h1>AI Homework Help in Shona — Chikoro AI Explained</h1>
           <p className="article-meta">March 5, 2026 · 7 min read</p>
           <p className="article-lead">
-            For most Zimbabwean students, school happens in English. But thinking, reasoning, and
+            For most Zimbabwean students, school happens in English. But thinking, reasoning and
             truly understanding a concept? That often happens in Shona. There is a gap between the
             language you learn in and the language you think in — and it costs students marks every year.
           </p>
           <p className="article-lead">
             <strong>Chikoro AI</strong> is the first AI tutoring platform built to close that gap.
-            It lets students ask questions, get explanations, and work through homework in both
+            It lets students ask questions, get explanations and work through homework in both
             English and Shona — switching between the two however feels most natural.
           </p>
         </header>
@@ -162,7 +162,7 @@ export default function AiHomeworkHelpInShona() {
           <h2>What's Coming Next</h2>
           <p>
             The team at Scales AI is actively expanding Chikoro AI's Shona capabilities. Planned
-            improvements include Ndebele support, voice-based interaction in local languages, and
+            improvements include Ndebele support, voice-based interaction in local languages and
             curriculum-aligned content mapped directly to ZIMSEC syllabi across all O-Level and
             A-Level subjects.
           </p>

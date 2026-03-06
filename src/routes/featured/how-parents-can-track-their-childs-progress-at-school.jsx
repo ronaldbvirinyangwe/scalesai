@@ -61,7 +61,7 @@ export default function ParentsTrackProgress() {
           <p>
             Research consistently shows that children perform better academically when parents are
             engaged in their schooling — not by doing their homework for them, but by showing
-            interest, asking questions, creating space for study at home, and being aware of how
+            interest, asking questions, creating space for study at home and being aware of how
             their child is progressing.
           </p>
           <p>
@@ -77,7 +77,7 @@ export default function ParentsTrackProgress() {
             questions:
           </p>
           <ul>
-            <li>Which subjects is my child performing well in, and which are a concern?</li>
+            <li>Which subjects is my child performing well in and which are a concern?</li>
             <li>Is my child completing homework and submitting it on time?</li>
             <li>Are there any topics where my child is consistently struggling?</li>
             <li>What can I do at home to support their learning in the next term?</li>
@@ -97,7 +97,7 @@ export default function ParentsTrackProgress() {
           <h3>Check Exercise Books Regularly</h3>
           <p>
             Ask to see your child's books once a week. You do not need to understand the content —
-            you are looking for whether work is being done, whether it is being marked, and whether
+            you are looking for whether work is being done, whether it is being marked and whether
             your child is responding to feedback. An exercise book that is half empty tells you
             something important.
           </p>
@@ -112,7 +112,7 @@ export default function ParentsTrackProgress() {
           <h3>Ask About Their Week in Specifics</h3>
           <p>
             Rather than "how was school?", ask "what did you learn in science today?" or "did you
-            get your maths test back?". Specific questions get specific answers, and they keep you
+            get your maths test back?". Specific questions get specific answers and they keep you
             connected to your child's daily academic experience.
           </p>
 
@@ -136,14 +136,14 @@ export default function ParentsTrackProgress() {
           </p>
           <p>
             Chikoro AI supports students across Zimbabwe and the wider region, with the platform
-            available in English, Shona, Ndebele, Zulu, and Swahili — making it accessible to
+            available in English, Shona, Ndebele, Zulu and Swahili — making it accessible to
             families across the linguistic diversity of southern and eastern Africa.
           </p>
 
           <h2>The Conversation That Matters Most</h2>
           <p>
             No tool replaces the conversation between a parent and a child about school. Ask your
-            child what they find hard, what they enjoy, and what they wish were different. Listen
+            child what they find hard, what they enjoy and what they wish were different. Listen
             without fixing. The relationship between parental engagement and academic performance is
             not primarily about monitoring — it is about your child knowing that you care.
           </p>
