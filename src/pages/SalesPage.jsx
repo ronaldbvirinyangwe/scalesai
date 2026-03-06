@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import Seo from '../components/Seo' // ✅ Added for SEO
 
 export default function SalesPage() {
   const [topic, setTopic] = useState('')
@@ -20,49 +21,59 @@ export default function SalesPage() {
   }
 
   return (
-    <section className="sales-page">
-      <div className="container sales-page__inner">
-        {/* Info column */}
-        <div className="sales-page__info">
-          <h1>Contact our Sales</h1>
-          <p>
-  Connect with our sales team for tailored support and resources as you grow your usage through the API and enterprise tools.
-</p>
+    <>
+      {/* ✅ SEO metadata for Sales page */}
+      <Seo
+        title="Contact Sales | Scales AI"
+        description="Reach out to the Scales AI sales team for enterprise inquiries, rate limit increases, or API partnerships. Get tailored support as you scale your AI usage across Africa."
+        pathname="/sales"
+        image="/assets/sales-banner.png"
+      />
 
-          <p>
-            Want a little help? Our{' '}
-            <Link to="/support" className="sales-page__link">
-              Support Center
-            </Link>{' '}
-            has answers to technical questions and product details.
-          </p>
-        </div>
+      <section className="sales-page">
+        <div className="container sales-page__inner">
+          {/* Info column */}
+          <div className="sales-page__info">
+            <h1>Contact our Sales</h1>
+            <p>
+              Connect with our sales team for tailored support and resources as you grow your usage through the API and enterprise tools.
+            </p>
 
-        {/* Form column */}
-        <div className="sales-page__form">
-          <form onSubmit={handleSubmit}>
-            <label htmlFor="help-topic">
-              What can we help you with?<span className="required">*</span>
-            </label>
-            <select
-              id="help-topic"
-              value={topic}
-              onChange={handleChange}
-              required
-            >
-              <option value="" disabled>– Please select –</option>
-              {options.map(opt => (
-                <option key={opt} value={opt}>
-                  {opt}
-                </option>
-              ))}
-            </select>
-            <button type="submit" className="btn btn--filled">
-              Submit
-            </button>
-          </form>
+            <p>
+              Want a little help? Our{' '}
+              <Link to="/support" className="sales-page__link">
+                Support Center
+              </Link>{' '}
+              has answers to technical questions and product details.
+            </p>
+          </div>
+
+          {/* Form column */}
+          <div className="sales-page__form">
+            <form onSubmit={handleSubmit}>
+              <label htmlFor="help-topic">
+                What can we help you with?<span className="required">*</span>
+              </label>
+              <select
+                id="help-topic"
+                value={topic}
+                onChange={handleChange}
+                required
+              >
+                <option value="" disabled>– Please select –</option>
+                {options.map(opt => (
+                  <option key={opt} value={opt}>
+                    {opt}
+                  </option>
+                ))}
+              </select>
+              <button type="submit" className="btn btn--filled">
+                Submit
+              </button>
+            </form>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   )
 }

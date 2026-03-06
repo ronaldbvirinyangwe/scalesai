@@ -1,4 +1,5 @@
 import React from 'react'
+import { Helmet } from 'react-helmet-async' // ✅ allows semantic markup for Google
 
 export default function Benchmarks() {
   const columns = [
@@ -70,8 +71,44 @@ export default function Benchmarks() {
     },
   ]
 
+  // ✅ Structured data: performance results for Google rich snippets
+  const benchmarkSchema = {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    name: "AI Model Benchmark Comparison 2025",
+    description:
+      "Benchmark comparison of Scales AI models (Chikoro Genesis 2 and Chikoro Exodus) against leading global models across coding, reasoning, and multilingual tasks.",
+    creator: {
+      "@type": "Organization",
+      name: "Scales AI",
+      url: "https://scalesai.online",
+    },
+    citation: "Scales AI Benchmarks 2025 Internal Report",
+    variableMeasured: rows.map(r => ({
+      "@type": "PropertyValue",
+      name: `${r.metric} (${r.sub})`,
+      value: {
+        "Chikoro Genesis 2": r.values[0],
+        "Chikoro Exodus": r.values[1],
+        "Claude Opus 4": r.values[2],
+        "Claude Sonnet 4": r.values[3],
+        "OpenAI o3": r.values[4],
+        "Gemini 2.5 Pro": r.values[5],
+      },
+    })),
+    dateModified: "2025-10-07",
+    license: "https://creativecommons.org/licenses/by/4.0/",
+  }
+
   return (
     <section className="benchmarks">
+      {/* ✅ Adds semantic data for search engines */}
+      <Helmet>
+        <script type="application/ld+json">
+          {JSON.stringify(benchmarkSchema, null, 2)}
+        </script>
+      </Helmet>
+
       <div className="container desktop-table">
         <table>
           <thead>
@@ -91,7 +128,10 @@ export default function Benchmarks() {
                   <span className="sub">{row.sub}</span>
                 </td>
                 {row.values.map((val, i) => (
-                  <td key={i} className={i === 0 && String(val).includes('%') ? 'highlight' : ''}>
+                  <td
+                    key={i}
+                    className={i === 0 && String(val).includes('%') ? 'highlight' : ''}
+                  >
                     {val}
                   </td>
                 ))}
@@ -110,7 +150,11 @@ export default function Benchmarks() {
               {columns.map((col, i) => (
                 <li key={col}>
                   <span>{col}</span>
-                  <strong className={i === 0 && String(row.values[i]).includes('%') ? 'highlight' : ''}>
+                  <strong
+                    className={
+                      i === 0 && String(row.values[i]).includes('%') ? 'highlight' : ''
+                    }
+                  >
                     {row.values[i]}
                   </strong>
                 </li>

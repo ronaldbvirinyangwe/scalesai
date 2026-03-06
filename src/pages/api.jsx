@@ -1,5 +1,6 @@
 // src/pages/ApiDocs.jsx
 import React, { useMemo, useState, useRef, useEffect } from 'react'
+import Seo from '../components/Seo'
 
 const DOC_VERSIONS = ['v1', 'v2']
 const LANGUAGES = ['Python', 'JavaScript', 'cURL', 'Java']
@@ -479,65 +480,77 @@ export default function ApiDocs() {
 
   const toggle = (id) => setOpen(o => ({ ...o, [id]: !o[id] }))
 
-  return (
-    <div className="docs-shell">
-      <aside className="docs-sidebar">
-        <div className="sidebar-head">
-          <h2>Chikoro API</h2>
-          <VersionTabs active={version} onChange={setVersion} />
-          <input
-            className="search"
-            placeholder="Search docs…"
-            value={query}
-            onChange={e => setQuery(e.target.value)}
-          />
-          {!!query && (
-            <div className="search-results">
-              {results.length === 0 && <div className="search-empty">No matches</div>}
-              {results.map(r => (
-                <a key={r.id + r.snippet} href={`#${r.id}`} onClick={() => setQuery('')}>
-                  <div className="sr-title">{r.title}</div>
-                  <div className="sr-snippet" dangerouslySetInnerHTML={{
-                    __html: r.snippet.replace(new RegExp(query, 'ig'), m => `<mark>${m}</mark>`)
-                  }} />
-                </a>
-              ))}
-            </div>
-          )}
-        </div>
-        <nav className="toc">
-          {secs.map(s => (
-            <a
-              key={s.id}
-              href={`#${s.id}`}
-              className={activeAnchor === s.id ? 'active' : ''}
-            >
-              {s.title}
-            </a>
-          ))}
-        </nav>
-      </aside>
+  
 
-      <main className="docs-main">
-        <header className="page-hero">
-          <h1>Scales API Documentation</h1>
-          <p>Build agents, workflows, and apps with Genesis 2 and Exodus. Secure, scalable, and Africa-first.</p>
-        </header>
+ return (
+    <>
+      {/* ✅ SEO added for scalesai.online */}
+      <Seo
+        title="Scales AI API Documentation | Genesis 2 & Exodus"
+        description="Official API documentation for Scales AI — power your apps with Genesis 2 and Exodus. Learn how to integrate completions, chat, agents, and workflows across education, enterprise, and research."
+        pathname="/api"
+        image="/assets/api-docs-banner.png"
+      />
 
-        {secs.map(s => (
-          <section key={s.id} id={s.id} className="doc-section">
-            <h2 onClick={() => toggle(s.id)}>
-              {s.title}
-              <span className="chev">{open[s.id] === false ? '＋' : '－'}</span>
-            </h2>
-            {(open[s.id] !== false) && (
-              <div className="section-body">
-                {s.body}
+      <div className="docs-shell">
+        <aside className="docs-sidebar">
+          <div className="sidebar-head">
+            <h2>Chikoro API</h2>
+            <VersionTabs active={version} onChange={setVersion} />
+            <input
+              className="search"
+              placeholder="Search docs…"
+              value={query}
+              onChange={e => setQuery(e.target.value)}
+            />
+            {!!query && (
+              <div className="search-results">
+                {results.length === 0 && <div className="search-empty">No matches</div>}
+                {results.map(r => (
+                  <a key={r.id + r.snippet} href={`#${r.id}`} onClick={() => setQuery('')}>
+                    <div className="sr-title">{r.title}</div>
+                    <div className="sr-snippet" dangerouslySetInnerHTML={{
+                      __html: r.snippet.replace(new RegExp(query, 'ig'), m => `<mark>${m}</mark>`)
+                    }} />
+                  </a>
+                ))}
               </div>
             )}
-          </section>
-        ))}
-      </main>
-    </div>
+          </div>
+          <nav className="toc">
+            {secs.map(s => (
+              <a
+                key={s.id}
+                href={`#${s.id}`}
+                className={activeAnchor === s.id ? 'active' : ''}
+              >
+                {s.title}
+              </a>
+            ))}
+          </nav>
+        </aside>
+
+        <main className="docs-main">
+          <header className="page-hero">
+            <h1>Scales API Documentation</h1>
+            <p>Build agents, workflows, and apps with Genesis 2 and Exodus. Secure, scalable, and Africa-first.</p>
+          </header>
+
+          {secs.map(s => (
+            <section key={s.id} id={s.id} className="doc-section">
+              <h2 onClick={() => toggle(s.id)}>
+                {s.title}
+                <span className="chev">{open[s.id] === false ? '＋' : '－'}</span>
+              </h2>
+              {(open[s.id] !== false) && (
+                <div className="section-body">
+                  {s.body}
+                </div>
+              )}
+            </section>
+          ))}
+        </main>
+      </div>
+    </>
   )
 }

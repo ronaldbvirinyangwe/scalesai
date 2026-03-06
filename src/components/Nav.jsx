@@ -1,62 +1,55 @@
-// src/components/Nav.jsx
 import React, { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
+
+const siteUrl = 'https://scalesai.online'
 
 export default function Nav() {
   const [open, setOpen] = useState(false)
   const { pathname } = useLocation()
 
-  const scrollTo = (id) => {
-    const el = document.getElementById(id)
-    if (el) {
-      el.scrollIntoView({ behavior: 'smooth' })
-      setOpen(false)
-    }
+  const navSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Scales AI Blog Navigation",
+    itemListElement: [
+      { "@type": "SiteNavigationElement", position: 1, name: "Blog", url: siteUrl },
+      { "@type": "SiteNavigationElement", position: 2, name: "Chikoro AI", url: "https://chikoro-ai.com" },
+    ],
   }
 
-  const menu = [
-    ['Chikoro', 'hero'],
-    ['Solutions', 'models'],
-    ['Research', 'video'],
-    // ['Commitments', 'trustsafety'],
-    ['Learn', 'mission'],
-    ['News', 'featured'],
-  ]
-
   return (
-    <header className="nav">
+    <header className="nav" role="banner">
+      <Helmet>
+        <title>Scales AI Blog — AI, Education &amp; Africa</title>
+        <link rel="canonical" href={`${siteUrl}${pathname}`} />
+        <meta
+          name="description"
+          content="The Scales AI blog covers AI in education, Zimbabwe's tech scene and responsible AI development across Africa."
+        />
+        <script type="application/ld+json">
+          {JSON.stringify(navSchema, null, 2)}
+        </script>
+      </Helmet>
+
       <div className="container nav__inner">
-        <a className="logo" href="/" aria-label="Scales AI logo">
+        {/* Brand */}
+        <Link
+          className="logo"
+          to="/"
+          aria-label="Scales AI Blog — home"
+          title="Scales AI Blog"
+        >
           Scales<span className="slash">\</span>AI
-        </a>
+          <span className="nav__blog-label">Blog</span>
+        </Link>
 
-        <nav className={`nav__links${open ? ' open' : ''}`}>
-          {menu.map(([label, id]) => (
-            pathname === '/' ? (
-              <a key={id} href={`#${id}`} onClick={(e) => {
-                e.preventDefault()
-                scrollTo(id)
-              }}>
-                {label}
-              </a>
-            ) : (
-              <Link key={id} to={`/#${id}`} onClick={() => setOpen(false)}>
-                {label}
-              </Link>
-            )
-          ))}
 
-          <Link to="/sales" onClick={() => setOpen(false)}>
-            Sales
-          </Link>
-          <Link to="/api" onClick={() => setOpen(false)}>
-            API
-          </Link>
-        </nav>
-
+        {/* Mobile toggle */}
         <button
           id="hamburger"
-          aria-label="Menu"
+          aria-label="Toggle menu"
+          aria-expanded={open}
           className={open ? 'open' : ''}
           onClick={() => {
             setOpen(o => !o)

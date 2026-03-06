@@ -1,6 +1,7 @@
 // src/pages/SupportCenter.jsx
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Seo from '../components/Seo' // ✅ Added for SEO
 
 const faqs = [
   {
@@ -37,29 +38,39 @@ const faqs = [
 
 export default function SupportCenter() {
   return (
-    <section className="support-center">
-      <div className="container">
-        <h1>Support Center</h1>
-        <p className="intro">
-          Find answers to common questions about Chikoro AI, integrations, billing, and usage.
-        </p>
+    <>
+      {/* ✅ SEO metadata for Support Center page */}
+      <Seo
+        title="Support Center | Scales AI"
+        description="Find answers to common questions about Scales AI and Chikoro AI — from API setup, billing, and integrations to rate limits, retention policies, and compliance."
+        pathname="/support"
+        image="/assets/support-center-banner.png"
+      />
 
-        <div className="faq-list">
-          {faqs.map((faq, i) => (
-            <div className="faq-item" key={i}>
-              <h3>{faq.question}</h3>
-              <p>{faq.answer}</p>
-            </div>
-          ))}
-        </div>
-
-        <div className="more-help">
-          <p>
-            Still need help? <Link to="/sales">Contact our sales team</Link> or email
-            <a href="mailto:support@chikoro.ai"> support@chikoro-ai.com</a>.
+      <section className="support-center">
+        <div className="container">
+          <h1>Support Center</h1>
+          <p className="intro">
+            Find answers to common questions about Chikoro AI, integrations, billing, and usage.
           </p>
+
+          <div className="faq-list">
+            {faqs.map((faq, i) => (
+              <div className="faq-item" key={i}>
+                <h3>{faq.question}</h3>
+                <p>{faq.answer}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="more-help">
+            <p>
+              Still need help? <Link to="/sales">Contact our sales team</Link> or email
+              <a href="mailto:support@chikoro-ai.com"> support@chikoro-ai.com</a>.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   )
 }

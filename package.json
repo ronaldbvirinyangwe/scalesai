@@ -1,7 +1,7 @@
 {
   "name": "scales-ai",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -11,8 +11,11 @@
   },
   "dependencies": {
     "bootstrap-icons": "^1.13.1",
+    "firebase": "^12.4.0",
+    "firebase-tools": "^14.20.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-helmet-async": "^2.0.5",
     "react-router-dom": "^7.7.1"
   },
   "devDependencies": {
