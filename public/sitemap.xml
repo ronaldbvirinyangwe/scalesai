@@ -11,6 +11,55 @@
 
   <!-- Blog articles — newest first -->
   <url>
+    <loc>https://scalesai.online/featured/cassava-technologies-how-a-zimbabwean-billionaire-is-building-africas-first-ai-factory</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://scalesai.online/featured/bigdotai-the-startup-using-blockchain-to-help-zimbabwes-smes-go-digital</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://scalesai.online/featured/batsihealth-the-smart-kiosk-startup-bringing-doctors-to-rural-zimbabwe</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://scalesai.online/featured/farmhut-the-zimbabwean-agritech-startup-connecting-farmers-to-fair-markets</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://scalesai.online/featured/needenergy-how-a-bulawayo-startup-is-using-ai-to-solve-zimbabwes-power-crisis</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://scalesai.online/featured/chatcash-the-zimbabwean-startup-turning-whatsapp-into-a-business-operating-system</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://scalesai.online/featured/hurudza-ai-the-startup-bringing-real-time-farm-advice-to-zimbabwean-farmers</loc>
+    <lastmod>2026-03-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://scalesai.online/featured/how-to-set-homework-that-students-actually-complete</loc>
     <lastmod>2026-03-06</lastmod>
     <changefreq>monthly</changefreq>

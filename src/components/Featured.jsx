@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useCallback } from 'react'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 
@@ -6,6 +6,48 @@ const siteUrl = 'https://scalesai.online'
 
 // All posts — newest first
 const posts = [
+  {
+    title: "Cassava Technologies: How a Zimbabwean Billionaire Is Building Africa's First AI Factory",
+    category: "News",
+    date: "Mar 8, 2026",
+    excerpt: "Strive Masiyiwa fought the Zimbabwean government for five years to get a phone licence. Now he is partnering with NVIDIA on a $720 million bet to build Africa's AI infrastructure — and ensure the continent owns its AI future.",
+  },
+  {
+    title: "BigDot.ai: The Startup Using Blockchain to Help Zimbabwe's SMEs Go Digital",
+    category: "News",
+    date: "Mar 8, 2026",
+    excerpt: "Most of Zimbabwe's small businesses still run on cash and notebooks. BigDot.ai is building blockchain-powered checkout and financial management tools to bring them into the digital economy — and Visa just backed them.",
+  },
+  {
+    title: "BatsiHealth: The Smart Kiosk Startup Bringing Doctors to Rural Zimbabwe",
+    category: "News",
+    date: "Mar 8, 2026",
+    excerpt: "In rural Zimbabwe, the nearest doctor may be hours away. BatsiHealth is placing smart telemedicine kiosks in villages and agent shops, letting patients consult a doctor via video link without leaving their community.",
+  },
+  {
+    title: "Farmhut: The Zimbabwean Agritech Startup Connecting Farmers to Fair Markets",
+    category: "News",
+    date: "Mar 8, 2026",
+    excerpt: "Smallholder farmers grow most of Zimbabwe's food but earn the least from it. Farmhut is using AI and a WhatsApp chatbot to connect 140,000 rural farmers directly to buyers, fair prices, and financial services.",
+  },
+  {
+    title: "NeedEnergy: How a Bulawayo Startup Is Using AI to Solve Zimbabwe's Power Crisis",
+    category: "News",
+    date: "Mar 8, 2026",
+    excerpt: "Zimbabwe loses up to 18 hours of power a day in some areas. NeedEnergy is using AI-coordinated solar microgrids and peer-to-peer energy trading to fight back — and the World Energy Council has taken notice.",
+  },
+  {
+    title: "ChatCash: The Zimbabwean Startup Turning WhatsApp Into a Business Operating System",
+    category: "News",
+    date: "Mar 8, 2026",
+    excerpt: "A Harare startup has built AI-powered commerce directly inside WhatsApp — letting businesses sell, collect payments, and manage customers in Shona and Ndebele, on any phone, with no app required.",
+  },
+  {
+    title: "Hurudza AI: The Startup Bringing Real-Time Farm Advice to Zimbabwean Farmers",
+    category: "News",
+    date: "Mar 8, 2026",
+    excerpt: "A Zimbabwean startup is using voice AI to deliver real-time agricultural advice to farmers — in Shona, via SMS or phone call, on a 2G network. Here is what Hurudza AI is building.",
+  },
   {
     title: "50+ AI Startups in Africa: The Ultimate 2026 Sectoral Review",
     category: "News",
@@ -106,6 +148,25 @@ const categoryColors = {
 export default function BlogHome() {
   const [activeCategory, setActiveCategory] = useState('All')
 
+  // ── Read tracking (persisted in localStorage) ──────────────────────
+  const [readSlugs, setReadSlugs] = useState(() => {
+    try {
+      return new Set(JSON.parse(localStorage.getItem('scalesai_read') || '[]'))
+    } catch {
+      return new Set()
+    }
+  })
+
+  const markAsRead = useCallback((slug) => {
+    setReadSlugs(prev => {
+      if (prev.has(slug)) return prev
+      const next = new Set(prev)
+      next.add(slug)
+      try { localStorage.setItem('scalesai_read', JSON.stringify([...next])) } catch {}
+      return next
+    })
+  }, [])
+
   const filtered = activeCategory === 'All'
     ? posts
     : posts.filter(p => p.category === activeCategory)
@@ -182,37 +243,86 @@ export default function BlogHome() {
       <section className="blog-grid-section">
         <div className="container">
           <div className="blog-grid" aria-live="polite">
-            {filtered.map((post) => {
+            {filtered.map((post, index) => {
               const slug = slugify(post.title)
               const tagStyle = categoryColors[post.category] || { bg: '#F0F3F4', color: '#2C3E50' }
+              const isFeatured = index === 0
+              const isRead = readSlugs.has(slug)
+
               return (
-                <article key={slug} className="blog-card">
+                <article
+                  key={slug}
+                  className={`blog-card${isRead ? ' blog-card--read' : ''}`}
+                >
                   {/* Animated accent bar on hover */}
                   <div className="blog-card__accent" aria-hidden="true" />
+
                   <Link
                     to={`/featured/${slug}`}
                     className="blog-card__link"
                     aria-label={`Read: ${post.title}`}
+                    onClick={() => markAsRead(slug)}
                   >
-                    <div className="blog-card__body">
-                      <span
-                        className="blog-card__tag"
-                        style={{ background: tagStyle.bg, color: tagStyle.color }}
-                      >
-                        {post.category}
-                      </span>
-                      <h2 className="blog-card__title">{post.title}</h2>
-                      <p className="blog-card__excerpt">{post.excerpt}</p>
-                    </div>
-                    <footer className="blog-card__footer">
-                      <time
-                        className="blog-card__date"
-                        dateTime={new Date(post.date).toISOString()}
-                      >
-                        {post.date}
-                      </time>
-                      <span className="blog-card__read">Read →</span>
-                    </footer>
+                    {isFeatured ? (
+                      /* ── Featured (first) card layout ── */
+                      <>
+                        <div className="blog-card__content">
+                          <div className="blog-card__body">
+                            <div className="blog-card__tags-row">
+                              <span
+                                className="blog-card__tag"
+                                style={{ background: tagStyle.bg, color: tagStyle.color }}
+                              >
+                                {post.category}
+                              </span>
+                              <span className="blog-card__new-badge">New</span>
+                            </div>
+                            <h2 className="blog-card__title">{post.title}</h2>
+                            <p className="blog-card__excerpt">{post.excerpt}</p>
+                          </div>
+                          <footer className="blog-card__footer">
+                            <time
+                              className="blog-card__date"
+                              dateTime={new Date(post.date).toISOString()}
+                            >
+                              {post.date}
+                            </time>
+                            <span className="blog-card__read">Read</span>
+                          </footer>
+                        </div>
+                        {/* Side panel — visible only at ≥900 px via CSS */}
+                        <div className="blog-card__side">
+                          <span className="blog-card__side-label">Latest</span>
+                          <p className="blog-card__side-date">{post.date}</p>
+                          {isRead && (
+                            <p className="blog-card__side-read">✓ You've read this</p>
+                          )}
+                        </div>
+                      </>
+                    ) : (
+                      /* ── Regular card layout ── */
+                      <>
+                        <div className="blog-card__body">
+                          <span
+                            className="blog-card__tag"
+                            style={{ background: tagStyle.bg, color: tagStyle.color }}
+                          >
+                            {post.category}
+                          </span>
+                          <h2 className="blog-card__title">{post.title}</h2>
+                          <p className="blog-card__excerpt">{post.excerpt}</p>
+                        </div>
+                        <footer className="blog-card__footer">
+                          <time
+                            className="blog-card__date"
+                            dateTime={new Date(post.date).toISOString()}
+                          >
+                            {post.date}
+                          </time>
+                          <span className="blog-card__read">Read</span>
+                        </footer>
+                      </>
+                    )}
                   </Link>
                 </article>
               )

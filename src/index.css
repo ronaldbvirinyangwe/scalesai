@@ -365,32 +365,98 @@ button {
     align-items: stretch;
     gap: 0;
   }
-  .blog-grid .blog-card:first-child .blog-card__body {
-    padding: 2.5rem;
+  /* Content wrapper holds body + footer in a column, sits left of side panel */
+  .blog-grid .blog-card:first-child .blog-card__content {
     flex: 1;
+    display: flex;
+    flex-direction: column;
     border-right: 1px solid var(--c-border);
+    min-width: 0;
   }
-  .blog-grid .blog-card:first-child .blog-card__accent-bar {
-    display: block;
+  .blog-grid .blog-card:first-child .blog-card__body {
+    padding: 2.5rem 2.5rem 1rem;
+    flex: 1;
+  }
+  .blog-grid .blog-card:first-child .blog-card__footer {
+    padding: 1rem 2.5rem 2rem;
   }
   .blog-grid .blog-card:first-child .blog-card__title {
-    font-size: clamp(1.4rem, 2.5vw, 1.75rem);
+    font-size: clamp(1.4rem, 2.5vw, 1.85rem);
   }
   .blog-grid .blog-card:first-child .blog-card__excerpt {
     font-size: var(--fs-base);
     max-width: 55ch;
+    -webkit-line-clamp: 4;
   }
-  .blog-grid .blog-card:first-child .blog-card__footer {
-    padding: 0 2.5rem 2.5rem;
+  /* Side panel — hidden on regular cards, shown for first */
+  .blog-card__side {
+    display: none;
   }
   .blog-grid .blog-card:first-child .blog-card__side {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    gap: 0.75rem;
     padding: 2.5rem;
-    min-width: 240px;
+    min-width: 220px;
     background: var(--c-beige);
   }
+}
+
+/* Side panel typography */
+.blog-card__side-label {
+  display: inline-flex;
+  align-self: flex-start;
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--c-accent);
+  background: rgba(224, 111, 74, 0.12);
+  padding: 0.28rem 0.7rem;
+  border-radius: 6px;
+}
+.blog-card__side-date {
+  font-size: var(--fs-sm);
+  color: var(--c-muted);
+  font-weight: 500;
+}
+.blog-card__side-read {
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  color: #16a34a;
+  letter-spacing: 0.04em;
+}
+
+/* New badge (next to category tag on featured card) */
+.blog-card__tags-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.9rem;
+  flex-wrap: wrap;
+}
+.blog-card__tags-row .blog-card__tag {
+  margin-bottom: 0;
+}
+.blog-card__new-badge {
+  display: inline-flex;
+  align-items: center;
+  font-size: var(--fs-xs);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.22rem 0.65rem;
+  border-radius: 6px;
+  background: var(--c-accent);
+  color: #fff;
+}
+
+/* Content wrapper (non-featured cards don't need this, but no-op if present) */
+.blog-card__content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 /* Blog card */
@@ -502,6 +568,29 @@ button {
 }
 .blog-card__read::after {
   content: '→';
+}
+
+/* ── Read state ──────────────────────────────────────────────────────── */
+.blog-card--read {
+  opacity: 0.72;
+  transition:
+    box-shadow var(--t-base),
+    transform var(--t-base),
+    border-color var(--t-base),
+    opacity var(--t-base);
+}
+.blog-card--read:hover {
+  opacity: 1;
+}
+.blog-card--read .blog-card__read {
+  color: #16a34a;
+}
+.blog-card--read .blog-card__read::after {
+  content: '✓';
+}
+/* Prevent hover arrow animation on read cards */
+.blog-card--read:hover .blog-card__read {
+  gap: 0.3rem;
 }
 
 /* Empty state */

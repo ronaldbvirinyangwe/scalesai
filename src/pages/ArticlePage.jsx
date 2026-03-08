@@ -15,6 +15,13 @@ import HomeworkStudentsComplete from '../routes/featured/how-to-set-homework-tha
 import AfricaAiStartups from '../routes/featured/ai-startups-africa-2026.jsx'
 import HowAIIsPoweringAfrica from '../routes/featured/how-ai-is-powering-africas-new-industrial-revolution.jsx'
 import AiStartupAnalysis from '../routes/featured/50-ai-startups-in-africa-the-ultimate-2026-sectoral-review.jsx'
+import HurudzaAI from '../routes/featured/hurudza-ai-the-startup-bringing-real-time-farm-advice-to-zimbabwean-farmers.jsx'
+import ChatCash from '../routes/featured/chatcash-the-zimbabwean-startup-turning-whatsapp-into-a-business-operating-system.jsx'
+import NeedEnergy from '../routes/featured/needenergy-how-a-bulawayo-startup-is-using-ai-to-solve-zimbabwes-power-crisis.jsx'
+import Farmhut from '../routes/featured/farmhut-the-zimbabwean-agritech-startup-connecting-farmers-to-fair-markets.jsx'
+import BatsiHealth from '../routes/featured/batsihealth-the-startup-bringing-doctors-to-rural-zimbabwe.jsx'
+import BigDotAi from '../routes/featured/bigdot-ai-the-startup-using-blockchain-to-help-zimbabwes-smes-go-digital.jsx'
+import CassavaTechnologies from '../routes/featured/cassava-technologies-how-a-zimbabwean-billionaire-is-building-africas-first-ai-factory.jsx'
 
 // Map slug → component
 const articleComponents = {
@@ -30,6 +37,13 @@ const articleComponents = {
   'ai-startups-africa-2026': AfricaAiStartups,
   'how-ai-is-powering-africas-new-industrial-revolution': HowAIIsPoweringAfrica,
   '50-ai-startups-in-africa-the-ultimate-2026-sectoral-review': AiStartupAnalysis,
+  'hurudza-ai-the-startup-bringing-real-time-farm-advice-to-zimbabwean-farmers': HurudzaAI,
+  'chatcash-the-zimbabwean-startup-turning-whatsapp-into-a-business-operating-system': ChatCash,
+  'needenergy-how-a-bulawayo-startup-is-using-ai-to-solve-zimbabwes-power-crisis': NeedEnergy,
+  'farmhut-the-zimbabwean-agritech-startup-connecting-farmers-to-fair-markets': Farmhut,
+  'batsihealth-the-smart-kiosk-startup-bringing-doctors-to-rural-zimbabwe': BatsiHealth,
+  'bigdotai-the-startup-using-blockchain-to-help-zimbabwes-smes-go-digital': BigDotAi,
+  'cassava-technologies-how-a-zimbabwean-billionaire-is-building-africas-first-ai-factory': CassavaTechnologies,
 }
 
 export default function ArticlePage() {
