@@ -21,9 +21,9 @@ export default function NeedEnergy() {
         <p>
           Load shedding is not a minor inconvenience in Zimbabwe. At its worst, it means 18-hour
           outages that shut down factories, spoil refrigerated food, force hospitals onto diesel
-          generators, and prevent students from studying after dark. The national grid, run by ZESA
+          generators and prevent students from studying after dark. The national grid, run by ZESA
           Holdings, has struggled for decades with aging infrastructure, low water levels at Kariba
-          Dam, and chronic underinvestment.
+          Dam and chronic underinvestment.
         </p>
         <p>
           The result is that Zimbabwe has one of the most unreliable electricity supplies in Southern
@@ -46,15 +46,15 @@ export default function NeedEnergy() {
         <p>
           The solution he envisioned was a software layer that could sit above all of this
           distributed energy infrastructure — monitoring it in real time, predicting supply and
-          demand, and enabling households and businesses to buy and sell surplus electricity between
+          demand and enabling households and businesses to buy and sell surplus electricity between
           themselves. In other words: a virtual power plant, run by AI.
         </p>
 
         <h2>How the Technology Works</h2>
         <p>
-          NeedEnergy deploys smart meters across homes, commercial buildings, and solar installations
+          NeedEnergy deploys smart meters across homes, commercial buildings and solar installations
           connected to its platform, called Memeza.ai. The platform monitors energy production and
-          consumption at each node in real time, tracks local grid prices, and anticipates market
+          consumption at each node in real time, tracks local grid prices and anticipates market
           fluctuations using machine learning models trained on Zimbabwean load data.
         </p>
         <p>
@@ -77,7 +77,7 @@ export default function NeedEnergy() {
           results. The company estimates its platform can reduce grid outages by up to six hours
           daily in target neighbourhoods — cutting load shedding by a third. It expects to displace
           21,800 tonnes of carbon dioxide annually by replacing diesel generator use with
-          coordinated solar, and to reduce household and business energy costs by up to 40%.
+          coordinated solar and to reduce household and business energy costs by up to 40%.
         </p>
         <p>
           If those figures hold at scale, NeedEnergy would represent one of the most cost-effective
@@ -96,7 +96,7 @@ export default function NeedEnergy() {
           Most notably, the World Energy Council and Germany's Deutsche Energie-Agentur (dena)
           named NeedEnergy one of the top 15 most innovative startups in the world in their global
           energy innovation ranking. For a startup founded in Bulawayo, competing against ventures
-          from Germany, the United States, and Asia, this recognition is remarkable.
+          from Germany, the United States and Asia, this recognition is remarkable.
         </p>
         <p>
           NeedEnergy has also been supported by the International Energy Technology Programme (IETP)
@@ -107,14 +107,14 @@ export default function NeedEnergy() {
         <h2>The Bigger Picture</h2>
         <p>
           NeedEnergy's work sits at the intersection of three of Africa's most urgent challenges:
-          energy access, climate change, and economic development. Sub-Saharan Africa has the
+          energy access, climate change and economic development. Sub-Saharan Africa has the
           world's highest proportion of people without reliable electricity. It also has some of the
-          world's best solar resources, and an enormous and growing rooftop solar sector.
+          world's best solar resources and an enormous and growing rooftop solar sector.
         </p>
         <p>
           What it lacks is the coordination infrastructure to connect these dots. NeedEnergy is
           building that infrastructure — starting in Bulawayo and Harare, but with a model that
-          could be replicated in Zambia, Mozambique, and across the continent. The startup has
+          could be replicated in Zambia, Mozambique and across the continent. The startup has
           designed Memeza.ai to be market-agnostic: any African country with distributed solar
           resources and unreliable grid power is a potential deployment target.
         </p>
@@ -123,7 +123,7 @@ export default function NeedEnergy() {
         <p>
           NeedEnergy's Harare pilot was targeting a Q3 2025 launch. As results from that pilot
           emerge, expect significant attention from development finance institutions, climate
-          investors, and African utilities looking for credible grid-edge solutions. Leroy Nyangani
+          investors and African utilities looking for credible grid-edge solutions. Leroy Nyangani
           may have started this company in Bulawayo, but the problem he is solving is continental
           in scale.
         </p>

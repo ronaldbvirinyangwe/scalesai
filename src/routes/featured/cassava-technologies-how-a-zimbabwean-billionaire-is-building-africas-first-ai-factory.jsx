@@ -41,7 +41,7 @@ export default function CassavaTechnologies() {
           Wireless grew into a pan-African telecoms giant. Masiyiwa built Africa's largest
           independent fibre network — over 100,000 kilometres of cable connecting cities, countries,
           and communities across the continent. He invested in businesses across Africa, Europe,
-          India, Latin America, and the United States. He co-founded the Higherlife Foundation,
+          India, Latin America and the United States. He co-founded the Higherlife Foundation,
           which has supported the education of over 250,000 orphaned and vulnerable children.
         </p>
         <p>
@@ -62,14 +62,14 @@ export default function CassavaTechnologies() {
           Until very recently, Africa had almost none of this infrastructure. Researchers wanting
           to train AI models had to use cloud providers hosted in the United States or Europe —
           sending data offshore, paying in foreign currency, operating under foreign data
-          regulations, and facing latency penalties that made some applications impractical.
+          regulations and facing latency penalties that made some applications impractical.
           African startups building AI products were, in effect, renting someone else's future.
         </p>
         <p>
           This is the gap Cassava Technologies is targeting. The company's new AI Factory programme,
           announced in March 2025 in partnership with NVIDIA, is designed to put the raw
           computational power of AI squarely on African soil — in African data centres, connected
-          by African fibre, governed by African regulators, and accessible to African businesses
+          by African fibre, governed by African regulators and accessible to African businesses
           at competitive prices.
         </p>
 
@@ -78,12 +78,12 @@ export default function CassavaTechnologies() {
           The term "AI factory" was coined by NVIDIA CEO Jensen Huang to describe a new generation
           of data centre infrastructure specifically designed for AI workloads. Unlike traditional
           data centres optimised for general computing or storage, an AI factory is built around
-          clusters of NVIDIA's most advanced GPUs — the same chips powering ChatGPT, Gemini, and
+          clusters of NVIDIA's most advanced GPUs — the same chips powering ChatGPT, Gemini and
           every frontier AI model being trained today.
         </p>
         <p>
           Cassava's AI Factory programme will deploy these GPU clusters across five locations:
-          South Africa, Nigeria, Kenya, Egypt, and Morocco. The first site, in Johannesburg, is
+          South Africa, Nigeria, Kenya, Egypt and Morocco. The first site, in Johannesburg, is
           scheduled to accept workloads in Q3 2026. When all five are operational, the network
           will provide access to 15,000 GPUs — enough computing power to train large language
           models entirely within Africa, without sending a single byte of data offshore.
@@ -106,9 +106,9 @@ export default function CassavaTechnologies() {
         </p>
         <p>
           For NVIDIA, the partnership is a strategic bet that Africa's AI market will be enormous.
-          The continent has 1.4 billion people, the world's youngest population, and a rapidly
+          The continent has 1.4 billion people, the world's youngest population and a rapidly
           growing tech sector. But to serve that market, AI products need to be trained on African
-          data, tested against African use cases, and fine-tuned for African languages and contexts.
+          data, tested against African use cases and fine-tuned for African languages and contexts.
           That work cannot be done efficiently from servers in Virginia or Amsterdam.
         </p>
         <p>
@@ -121,7 +121,7 @@ export default function CassavaTechnologies() {
         <p>
           Masiyiwa and Cassava use the phrase "sovereign AI" to describe what they are building —
           and the choice of language is deliberate. Sovereignty implies control: control over data,
-          control over the models that process it, and control over the policy decisions that govern
+          control over the models that process it and control over the policy decisions that govern
           how AI is used within a country's borders.
         </p>
         <p>
@@ -129,7 +129,7 @@ export default function CassavaTechnologies() {
           implications of their citizens' information being processed on foreign servers under
           foreign law. Cassava's AI Factory programme offers a direct answer to those concerns —
           AI infrastructure that is physically present in Africa, compliant with local data
-          regulations, and available to government, enterprise, and research users alike.
+          regulations and available to government, enterprise and research users alike.
         </p>
         <p>
           This is also why Cassava has been deliberate about its partnerships beyond NVIDIA.
@@ -159,7 +159,7 @@ export default function CassavaTechnologies() {
 
         <h2>The Bigger Picture</h2>
         <p>
-          The global AI race is moving fast. The United States, China, and Europe are investing
+          The global AI race is moving fast. The United States, China and Europe are investing
           hundreds of billions of dollars in AI infrastructure. Countries that do not build their
           own compute capacity risk becoming permanently dependent on foreign AI platforms — using
           models trained on foreign data, aligned with foreign values, serving foreign commercial

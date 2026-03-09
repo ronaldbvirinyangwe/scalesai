@@ -9,7 +9,7 @@ export default function BigDotAi() {
         <h1>BigDot.ai: The Startup Using Blockchain to Help Zimbabwe's SMEs Go Digital</h1>
         <p className="article-meta">March 8, 2026 · 5 min read</p>
         <p className="article-lead">
-          Most of Zimbabwe's small businesses still run on cash, notebooks, and informal trust.
+          Most of Zimbabwe's small businesses still run on cash, notebooks and informal trust.
           BigDot.ai is changing that — building blockchain-powered checkout and financial management
           tools that let SMEs go fully digital without a bank account. Visa just selected them for
           its elite Africa Fintech Accelerator.
@@ -29,7 +29,7 @@ export default function BigDotAi() {
         <p>
           The typical Zimbabwean SME — a hardware shop in Mutare, a tailor in Gweru, a wholesale
           distributor in Harare's industrial sites — tracks inventory in a physical ledger, settles
-          supplier invoices in cash, has no formal credit history, and operates completely outside
+          supplier invoices in cash, has no formal credit history and operates completely outside
           the formal banking system. This invisibility is expensive: without verifiable financial
           records, these businesses cannot access loans, insurance, or payment processing at
           competitive rates.
@@ -44,7 +44,7 @@ export default function BigDotAi() {
           BigDot.ai provides blockchain-powered checkout and financial management tools designed
           specifically for small and medium enterprises in Zimbabwe and across Southern Africa. The
           platform enables businesses to accept digital payments, generate verifiable financial
-          records, manage invoicing and receipts, and build a digital transaction history — all
+          records, manage invoicing and receipts and build a digital transaction history — all
           through a system that does not depend on traditional banking infrastructure.
         </p>
         <p>
@@ -56,7 +56,7 @@ export default function BigDotAi() {
         </p>
         <p>
           For the business owner, the experience is designed to be simple: a smartphone, an
-          internet connection, and BigDot.ai's app replace the physical ledger, the receipt book,
+          internet connection and BigDot.ai's app replace the physical ledger, the receipt book,
           and the cash tin. Sales are recorded automatically. Payment confirmations are instant.
           Month-end reporting takes minutes rather than days.
         </p>
@@ -72,7 +72,7 @@ export default function BigDotAi() {
         </p>
         <p>
           The Visa accelerator provides participants with mentorship from senior Visa executives,
-          technical training, access to Visa's developer platform and APIs, and investor
+          technical training, access to Visa's developer platform and APIs and investor
           introductions. For a startup operating in a market with Zimbabwe's financial complexity,
           these connections could be transformative — opening doors to continental expansion and
           institutional partnerships that would otherwise take years to develop.
@@ -106,7 +106,7 @@ export default function BigDotAi() {
 
         <h2>The Broader Opportunity</h2>
         <p>
-          Africa has an estimated 44 million micro, small, and medium enterprises. The vast majority
+          Africa has an estimated 44 million micro, small and medium enterprises. The vast majority
           are financially invisible — unable to access credit, insurance, or formal payments
           infrastructure because they lack the documented financial history that traditional systems
           require. Blockchain-based financial records offer a credible solution to this problem at
@@ -119,7 +119,7 @@ export default function BigDotAi() {
           market is enormous.
         </p>
         <p>
-          Zimbabwe's small businesses have survived currency collapses, hyperinflation, and decades
+          Zimbabwe's small businesses have survived currency collapses, hyperinflation and decades
           of economic instability through ingenuity and resilience. BigDot.ai is building the
           digital infrastructure to give that resilience a financial identity — and with Visa behind
           them, the momentum is building.

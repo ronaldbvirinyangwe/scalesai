@@ -92,7 +92,7 @@ export default function HurudzaAI() {
           </p>
           <p>
             The result is that decisions about fertiliser application, pest management, soil
-            treatment, and crop rotation — decisions that can determine whether a family eats or
+            treatment and crop rotation — decisions that can determine whether a family eats or
             not — often get made on the basis of guesswork, word of mouth, or outdated advice from
             five seasons ago. Hurudza AI is trying to change that.
           </p>
@@ -125,7 +125,7 @@ export default function HurudzaAI() {
           </p>
           <p>
             This matters more than it might seem. Agricultural terminology in a second language
-            introduces a layer of friction that can lead to misdiagnosis, wrong treatments, and crop
+            introduces a layer of friction that can lead to misdiagnosis, wrong treatments and crop
             losses. A farmer who knows exactly what is wrong with their maize in Shona should not
             have to find the English word for it before they can get help. Hurudza AI removes that
             translation burden.
@@ -140,9 +140,9 @@ export default function HurudzaAI() {
           <h2>Climate-Smart Agriculture and the Stakes</h2>
           <p>
             Hurudza AI has positioned itself explicitly within the climate-smart agriculture
-            movement, and for good reason. Zimbabwe's farming communities are among the most exposed
+            movement and for good reason. Zimbabwe's farming communities are among the most exposed
             to climate variability in the region — erratic rainfall, increased drought frequency,
-            and shifting planting seasons are already altering what crops can be grown where, and
+            and shifting planting seasons are already altering what crops can be grown where and
             when.
           </p>
           <p>
@@ -158,7 +158,7 @@ export default function HurudzaAI() {
             Hurudza AI was founded by Frank Makeba (also referenced as Frank Thulani in some
             coverage), a Zimbabwean entrepreneur who identified the gap between the agricultural
             knowledge that exists and the farmers who need it. The startup has been showcased at
-            local innovation forums, featured in The Herald Zimbabwe, and listed on VC4A — the
+            local innovation forums, featured in The Herald Zimbabwe and listed on VC4A — the
             continent's leading platform for African venture capital — suggesting it is actively
             seeking investment to scale.
           </p>
@@ -176,7 +176,7 @@ export default function HurudzaAI() {
           </p>
           <p>
             That approach is harder. It requires deep local knowledge, a willingness to support
-            channels that more sophisticated markets have long moved past, and the patience to build
+            channels that more sophisticated markets have long moved past and the patience to build
             trust with communities that have been promised technology before and had it fail to
             deliver. But it is also the approach most likely to actually work.
           </p>

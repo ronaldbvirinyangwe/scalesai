@@ -11,7 +11,7 @@ export default function Farmhut() {
         <p className="article-lead">
           Smallholder farmers in Zimbabwe grow most of the country's food — but they earn the least
           from it. Farmhut is using AI and a WhatsApp chatbot to change that, giving 140,000 rural
-          farmers direct access to buyers, fair prices, and financial services.
+          farmers direct access to buyers, fair prices and financial services.
         </p>
       </header>
 
@@ -29,7 +29,7 @@ export default function Farmhut() {
         </p>
         <p>
           This is not a new insight. What Farmhut offers is a practical solution built specifically
-          for the realities of rural Zimbabwe: low connectivity, limited smartphone penetration, and
+          for the realities of rural Zimbabwe: low connectivity, limited smartphone penetration and
           a mistrust of digital platforms that don't work in local languages or local contexts.
         </p>
 
@@ -43,7 +43,7 @@ export default function Farmhut() {
         </p>
         <p>
           Beyond the marketplace itself, Farmhut connects farmers to logistics providers who can
-          collect and transport produce, agricultural input suppliers, and financial services
+          collect and transport produce, agricultural input suppliers and financial services
           including credit and crop insurance. The platform essentially replaces the entire web of
           services that a formal agricultural business would access separately — packaging them for
           smallholders with no prior digital experience.
@@ -57,7 +57,7 @@ export default function Farmhut() {
           that works on basic feature phones via USSD, requiring minimal data and no app downloads.
         </p>
         <p>
-          A farmer can check maize prices in Harare, list their maize for sale, and receive payment
+          A farmer can check maize prices in Harare, list their maize for sale and receive payment
           confirmation through a series of simple text exchanges. The chatbot handles the
           complexity; the farmer just answers yes-or-no questions. It is the same design philosophy
           seen across Africa's most successful agritech platforms — meet farmers where they are,
@@ -94,7 +94,7 @@ export default function Farmhut() {
         <h2>The AI Layer</h2>
         <p>
           Farmhut's platform includes AI-powered features that go beyond simple marketplace matching.
-          The system analyses historical pricing data, seasonal patterns, and transport costs to
+          The system analyses historical pricing data, seasonal patterns and transport costs to
           recommend optimal selling times to farmers — helping them maximise their income by timing
           when to list produce for sale. It can also flag anomalies in market pricing that might
           indicate supply shortages or oversupply, giving farmers advance warning to adjust their
@@ -110,7 +110,7 @@ export default function Farmhut() {
         <h2>Why This Matters Beyond Zimbabwe</h2>
         <p>
           Farmhut's model is transferable. The combination of a digital marketplace, offline-first
-          access channels, local language support, and farmer cooperative partnerships is a template
+          access channels, local language support and farmer cooperative partnerships is a template
           that could be applied in Zambia, Mozambique, Tanzania, or any country where smallholder
           farming dominates food production but farmers remain economically marginalised.
         </p>

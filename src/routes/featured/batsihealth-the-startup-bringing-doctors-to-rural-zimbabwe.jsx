@@ -10,7 +10,7 @@ export default function BatsiHealth() {
         <p className="article-meta">March 8, 2026 · 6 min read</p>
         <p className="article-lead">
           In Zimbabwe's rural areas, the nearest doctor may be hours away. BatsiHealth is placing
-          smart telemedicine kiosks in villages, agent shops, and pharmacies — letting patients
+          smart telemedicine kiosks in villages, agent shops and pharmacies — letting patients
           consult a doctor in Harare via video link without leaving their community.
         </p>
       </header>
@@ -21,13 +21,13 @@ export default function BatsiHealth() {
         <p>
           Zimbabwe has approximately 1.6 doctors per 10,000 people — well below the World Health
           Organisation's recommended ratio of 44.5 per 10,000. The vast majority of those doctors
-          are concentrated in Harare, Bulawayo, and a handful of other urban centres. For the 60%
+          are concentrated in Harare, Bulawayo and a handful of other urban centres. For the 60%
           of Zimbabweans who live in rural areas, accessing a qualified physician often means a
-          half-day journey, days of waiting, and costs that are prohibitive for most families.
+          half-day journey, days of waiting and costs that are prohibitive for most families.
         </p>
         <p>
           The result is that many rural Zimbabweans manage chronic conditions like diabetes and
-          hypertension without diagnosis, delay seeking care until emergencies arise, and rely on
+          hypertension without diagnosis, delay seeking care until emergencies arise and rely on
           pharmacists or community health workers as their primary point of contact with the medical
           system. This is not a failure of will — it is a structural problem created by geography
           and decades of healthcare underinvestment.
@@ -43,13 +43,13 @@ export default function BatsiHealth() {
           ZimSmart Villages, a Zimbabwean social enterprise focused on bringing digital services to
           underserved communities. Each kiosk is equipped with a high-definition screen, camera,
           and a suite of point-of-care diagnostic devices — blood pressure monitors, blood glucose
-          meters, and pulse oximeters that feed readings directly into the consultation.
+          meters and pulse oximeters that feed readings directly into the consultation.
         </p>
         <p>
-          A patient walks in, registers with a trained nurse or community health agent on site, and
+          A patient walks in, registers with a trained nurse or community health agent on site and
           within minutes is connected via video call to a qualified doctor in Mutare, Harare, or
           another city. The doctor can see the patient, review diagnostic readings in real time,
-          ask questions, make a diagnosis, and issue a prescription — all remotely. The entire
+          ask questions, make a diagnosis and issue a prescription — all remotely. The entire
           consultation is recorded in an electronic health record that follows the patient across
           future visits.
         </p>
@@ -114,14 +114,14 @@ export default function BatsiHealth() {
         <p>
           BatsiHealth's roadmap involves expanding the range of conditions that can be managed
           remotely, integrating AI diagnostic support tools that can help community health workers
-          flag urgent cases before the video consultation, and building a longitudinal health
+          flag urgent cases before the video consultation and building a longitudinal health
           records system that gives Zimbabwe a national picture of rural health outcomes for the
           first time.
         </p>
         <p>
           The ambition is not simply to provide access to doctors — it is to create a healthcare
           data infrastructure for rural Zimbabwe that can inform public health policy, identify
-          disease outbreaks early, and allocate scarce medical resources more efficiently.
+          disease outbreaks early and allocate scarce medical resources more efficiently.
         </p>
         <p>
           Healthcare in Zimbabwe's rural areas has been neglected for too long. BatsiHealth is not
