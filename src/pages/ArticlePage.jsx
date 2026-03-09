@@ -58,6 +58,31 @@ import AIAfricanAgriculture from '../routes/featured/ai-in-african-agriculture-f
 import AfricanFarmersSatellitesAI from '../routes/featured/how-african-farmers-are-using-satellites-and-ai-to-fight-climate-change.jsx'
 import AfricaLanguageDiversityAI from '../routes/featured/why-africas-language-diversity-is-both-ais-biggest-challenge-and-biggest-opportunity.jsx'
 import RonaldBvirinyangwe from '../routes/featured/ronald-bvirinyangwe-the-zimbabwean-student-who-built-an-ai-tutor-for-his-country.jsx'
+import StriveMasiyiwa from '../routes/featured/strive-masiyiwa-the-man-who-built-africas-biggest-tech-empire-from-zimbabwe.jsx'
+import ZimbabweBrainDrainAI from '../routes/featured/zimbabwes-brain-drain-and-how-ai-could-help-reverse-it.jsx'
+import ZimbabweDiasporaTechFuture from '../routes/featured/how-zimbabwes-diaspora-is-funding-the-countrys-tech-future.jsx'
+import ZimbabweInformalEconomyAI from '../routes/featured/ai-and-zimbabwes-informal-economy-vendors-markets-and-the-hustle-economy.jsx'
+import ZimbabweTechHubs from '../routes/featured/zimbabwes-tech-hubs-the-spaces-where-the-next-generation-of-founders-is-building.jsx'
+import IyinoluwaAboyeji from '../routes/featured/iyinoluwa-aboyeji-the-man-who-built-andela-and-flutterwave-and-isnt-done-yet.jsx'
+import RebeccaEnonchong from '../routes/featured/rebecca-enonchong-the-cameroonian-who-became-africas-most-powerful-tech-voice.jsx'
+import SholaAkinlade from '../routes/featured/shola-akinlade-how-paystacks-founder-sold-to-stripe-and-changed-african-fintech.jsx'
+import KolaAina from '../routes/featured/kola-aina-the-vc-who-bet-on-african-founders-before-anyone-else.jsx'
+import OdunayoEweniyi from '../routes/featured/odunayo-eweniyi-building-financial-inclusion-from-lagos-one-piggybank-at-a-time.jsx'
+import KenyaSiliconSavannah from '../routes/featured/kenyas-silicon-savannah-how-nairobi-became-africas-most-important-tech-hub.jsx'
+import NigeriaTechEcosystem from '../routes/featured/nigerias-tech-ecosystem-why-lagos-is-the-capital-of-african-tech-ambition.jsx'
+import SouthAfricaTechEconomy from '../routes/featured/south-africa-africas-most-advanced-tech-economy-and-what-holds-it-back.jsx'
+import ZimbabweLearnFromKenya from '../routes/featured/what-zimbabwe-can-learn-from-kenyas-approach-to-mobile-money-and-fintech.jsx'
+import NigeriaTalentPipeline from '../routes/featured/how-nigeria-built-the-talent-pipeline-that-feeds-the-worlds-tech-companies.jsx'
+import AIAfricanHealthcare from '../routes/featured/ai-in-african-healthcare-from-rural-clinics-to-drug-discovery.jsx'
+import AIAfricanFintech from '../routes/featured/ai-in-african-fintech-how-machine-learning-is-rewriting-credit-fraud-and-financial-inclusion.jsx'
+import AIAfricanLogistics from '../routes/featured/ai-in-african-logistics-fixing-the-last-mile-problem-that-has-held-the-continent-back.jsx'
+import AIAfricanEnergy from '../routes/featured/ai-in-african-energy-how-machine-learning-is-helping-solve-the-continents-power-crisis.jsx'
+import AIAfricanRetail from '../routes/featured/ai-and-african-retail-how-e-commerce-and-informal-markets-are-being-transformed.jsx'
+import RemoteJobZimbabweDeveloper from '../routes/featured/how-to-get-a-remote-job-as-a-zimbabwean-developer-in-2026.jsx'
+import AIStartBusinessZimbabwe from '../routes/featured/how-to-use-ai-to-start-a-business-in-zimbabwe-with-almost-no-money.jsx'
+import EarnUSDZimbabwe from '../routes/featured/how-to-earn-in-usd-from-zimbabwe-a-practical-guide-for-2026.jsx'
+import AILearnSkillsZimbabwe from '../routes/featured/how-to-use-ai-to-learn-new-skills-and-change-your-career-in-zimbabwe.jsx'
+import AINavigateZimbabweJobMarket from '../routes/featured/how-to-use-ai-tools-to-navigate-zimbabwes-job-market.jsx'
 
 // Map slug → component
 const articleComponents = {
@@ -116,6 +141,31 @@ const articleComponents = {
   'how-african-farmers-are-using-satellites-and-ai-to-fight-climate-change': AfricanFarmersSatellitesAI,
   'why-africas-language-diversity-is-both-ais-biggest-challenge-and-biggest-opportunity': AfricaLanguageDiversityAI,
   'ronald-bvirinyangwe-the-zimbabwean-student-who-built-an-ai-tutor-for-his-country': RonaldBvirinyangwe,
+  'strive-masiyiwa-the-man-who-built-africas-biggest-tech-empire-from-zimbabwe': StriveMasiyiwa,
+  'zimbabwes-brain-drain-and-how-ai-could-help-reverse-it': ZimbabweBrainDrainAI,
+  'how-zimbabwes-diaspora-is-funding-the-countrys-tech-future': ZimbabweDiasporaTechFuture,
+  'ai-and-zimbabwes-informal-economy-vendors-markets-and-the-hustle-economy': ZimbabweInformalEconomyAI,
+  'zimbabwes-tech-hubs-the-spaces-where-the-next-generation-of-founders-is-building': ZimbabweTechHubs,
+  'iyinoluwa-aboyeji-the-man-who-built-andela-and-flutterwave-and-isnt-done-yet': IyinoluwaAboyeji,
+  'rebecca-enonchong-the-cameroonian-who-became-africas-most-powerful-tech-voice': RebeccaEnonchong,
+  'shola-akinlade-how-paystacks-founder-sold-to-stripe-and-changed-african-fintech': SholaAkinlade,
+  'kola-aina-the-vc-who-bet-on-african-founders-before-anyone-else': KolaAina,
+  'odunayo-eweniyi-building-financial-inclusion-from-lagos-one-piggybank-at-a-time': OdunayoEweniyi,
+  'kenyas-silicon-savannah-how-nairobi-became-africas-most-important-tech-hub': KenyaSiliconSavannah,
+  'nigerias-tech-ecosystem-why-lagos-is-the-capital-of-african-tech-ambition': NigeriaTechEcosystem,
+  'south-africa-africas-most-advanced-tech-economy-and-what-holds-it-back': SouthAfricaTechEconomy,
+  'what-zimbabwe-can-learn-from-kenyas-approach-to-mobile-money-and-fintech': ZimbabweLearnFromKenya,
+  'how-nigeria-built-the-talent-pipeline-that-feeds-the-worlds-tech-companies': NigeriaTalentPipeline,
+  'ai-in-african-healthcare-from-rural-clinics-to-drug-discovery': AIAfricanHealthcare,
+  'ai-in-african-fintech-how-machine-learning-is-rewriting-credit-fraud-and-financial-inclusion': AIAfricanFintech,
+  'ai-in-african-logistics-fixing-the-last-mile-problem-that-has-held-the-continent-back': AIAfricanLogistics,
+  'ai-in-african-energy-how-machine-learning-is-helping-solve-the-continents-power-crisis': AIAfricanEnergy,
+  'ai-and-african-retail-how-e-commerce-and-informal-markets-are-being-transformed': AIAfricanRetail,
+  'how-to-get-a-remote-job-as-a-zimbabwean-developer-in-2026': RemoteJobZimbabweDeveloper,
+  'how-to-use-ai-to-start-a-business-in-zimbabwe-with-almost-no-money': AIStartBusinessZimbabwe,
+  'how-to-earn-in-usd-from-zimbabwe-a-practical-guide-for-2026': EarnUSDZimbabwe,
+  'how-to-use-ai-to-learn-new-skills-and-change-your-career-in-zimbabwe': AILearnSkillsZimbabwe,
+  'how-to-use-ai-tools-to-navigate-zimbabwes-job-market': AINavigateZimbabweJobMarket,
 }
 
 export default function ArticlePage() {
