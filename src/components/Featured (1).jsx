@@ -7,36 +7,6 @@ const siteUrl = 'https://scalesai.online'
 // All posts — newest first
 const posts = [
   {
-    title: "Chikoro AI APK Now Available on APKPure, Coming Soon to Play Store and App Store",
-    category: "Product News",
-    date: "Mar 23, 2026",
-    excerpt: "The Chikoro AI Android app is now live on APKPure and downloadable today. Official listings on Google Play and the Apple App Store are coming soon — here is what that means for Zimbabwean students.",
-  },
-  {
-    title: "Cassava Technologies Launches Africas First NVIDIA-Powered AI Factory",
-    category: "AI Infrastructure",
-    date: "Mar 20, 2026",
-    excerpt: "Strive Masiyiwa's Cassava Technologies has deployed Africa's first NVIDIA-powered AI Factory in South Africa, bringing sovereign GPU compute, African-language AI models and autonomous network management to the continent for the first time.",
-  },
-  {
-    title: "Google Launches WAXAL An Open Speech Dataset for 21 African Languages",
-    category: "AI & Language",
-    date: "Feb 3, 2026",
-    excerpt: "Google Research Africa has released WAXAL — 11,000+ hours of speech data across 21 African languages, owned by African institutions and free to use. It could reshape how AI hears and speaks to over 100 million Africans.",
-  },
-  {
-    title: "M-Pesa Ziidi Trader Safaricom Brings Stock Trading to Your Phone",
-    category: "Fintech",
-    date: "Feb 10, 2026",
-    excerpt: "Safaricom has launched Ziidi Trader on M-Pesa, allowing any Kenyan to buy and sell shares on the Nairobi Securities Exchange directly from their phone — starting with just one share, no CDS account needed.",
-  },
-  {
-    title: "Flutterwave Acquires Mono What It Means for African Payments",
-    category: "Fintech",
-    date: "Jan 5, 2026",
-    excerpt: "Flutterwave has acquired Nigerian open banking startup Mono in a deal worth up to $40 million, combining payment processing with bank data APIs to build a full-stack African financial infrastructure.",
-  },
-  {
     title: "How to Use AI Tools to Navigate Zimbabwe's Job Market",
     category: "Practical How-Tos",
     date: "Mar 9, 2026",

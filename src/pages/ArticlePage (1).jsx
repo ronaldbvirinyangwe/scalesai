@@ -83,11 +83,6 @@ import AIStartBusinessZimbabwe from '../routes/featured/how-to-use-ai-to-start-a
 import EarnUSDZimbabwe from '../routes/featured/how-to-earn-in-usd-from-zimbabwe-a-practical-guide-for-2026.jsx'
 import AILearnSkillsZimbabwe from '../routes/featured/how-to-use-ai-to-learn-new-skills-and-change-your-career-in-zimbabwe.jsx'
 import AINavigateZimbabweJobMarket from '../routes/featured/how-to-use-ai-tools-to-navigate-zimbabwes-job-market.jsx'
-import ChikoroAIAPKPure from '../routes/featured/chikoro-ai-apk-now-available-on-apkpure-coming-soon-to-play-store-and-app-store.jsx'
-import CassavaAIFactory from '../routes/featured/cassava-technologies-launches-africas-first-nvidia-powered-ai-factory.jsx'
-import MPesaZiidiTrader from '../routes/featured/m-pesa-ziidi-trader-safaricom-brings-stock-trading-to-your-phone.jsx'
-import FlutterwaveAcquiresMono from '../routes/featured/flutterwave-acquires-mono-what-it-means-for-african-payments.jsx'
-import GoogleWAXAL from '../routes/featured/google-launches-waxal-an-open-speech-dataset-for-21-african-languages.jsx'
 
 // Map slug → component
 const articleComponents = {
@@ -171,11 +166,6 @@ const articleComponents = {
   'how-to-earn-in-usd-from-zimbabwe-a-practical-guide-for-2026': EarnUSDZimbabwe,
   'how-to-use-ai-to-learn-new-skills-and-change-your-career-in-zimbabwe': AILearnSkillsZimbabwe,
   'how-to-use-ai-tools-to-navigate-zimbabwes-job-market': AINavigateZimbabweJobMarket,
-  'chikoro-ai-apk-now-available-on-apkpure-coming-soon-to-play-store-and-app-store': ChikoroAIAPKPure,
-  'cassava-technologies-launches-africas-first-nvidia-powered-ai-factory': CassavaAIFactory,
-  'm-pesa-ziidi-trader-safaricom-brings-stock-trading-to-your-phone': MPesaZiidiTrader,
-  'flutterwave-acquires-mono-what-it-means-for-african-payments': FlutterwaveAcquiresMono,
-  'google-launches-waxal-an-open-speech-dataset-for-21-african-languages': GoogleWAXAL,
 }
 
 export default function ArticlePage() {
